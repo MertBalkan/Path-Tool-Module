@@ -33,10 +33,10 @@ namespace PathTool.Algorithms
                 
                 var calculatedDistance = (Vector3.Distance(currentPathPosition, nextPathPosition));
                 
-                Handles.color = Color.blue;
-                
                 Handles.color = Color.white;
-                Handles.DrawLine(currentPath.transform.position, nextPath.transform.position, _pathModuleManager.PathEditorElements.PathThicknessScale);
+                Handles.DrawLine(currentPathPosition, nextPathPosition, _pathModuleManager.PathEditorElements.PathThicknessScale);
+                Handles.DrawLine(_pathModuleManager.Paths[^1].transform.position, _pathModuleManager.Paths[0].transform.position, _pathModuleManager.PathEditorElements.PathThicknessScale);
+                
                 ShowDistance(currentPathPosition, nextPathPosition, calculatedDistance);
             }        
         }
