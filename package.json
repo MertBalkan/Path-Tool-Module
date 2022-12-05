@@ -1,5 +1,11 @@
 {
   "name": "com.mert.path-tool",
   "version": "1.0.0",
-  "displayname": "Path Tool"
+  "displayname": "Path Tool",
+  "description": "Path managment tool allows you to store positions of paths and visualise paths on the Editor",
+  "author": {
+    "name": "Mert Balkan",
+    "email": "mertbalkan3@gmail.com",
+    "url": "github.com/mertbalkan" 
+  }
 }
