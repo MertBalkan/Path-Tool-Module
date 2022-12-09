@@ -41,7 +41,6 @@ namespace PathTool.Algorithms
             }        
         }
 
-
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         private void ShowDistance(Vector3 currentPathPosition, Vector3 nextPathPosition, float calculatedDistance)
         {

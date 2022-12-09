@@ -51,8 +51,6 @@ namespace PathTool.Controllers
             Handles.color = Color.cyan;
             Handles.DrawSolidDisc(transform.position, Vector3.up, PathModuleManager.PathEditorElements.WireDiscRadius / 2);
             Handles.DrawWireDisc(transform.position, Vector3.up, PathModuleManager.PathEditorElements.WireDiscRadius);
-         
-            
         }
 #endif
                 

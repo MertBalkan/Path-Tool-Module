@@ -21,16 +21,15 @@ namespace PathTool.Algorithms
 		public void ApplyAlgorithm()
 		{
 			AlgorithmEnum = AlgorithmEnum.CatmullRom;
-
 			Handles.color = Color.white;
 
 			if(_pathModuleManager.Paths == null) return;
+			
 			for (var i = 0; i < _pathModuleManager.Paths.Count; i++)
 			{
 				try
 				{
 					DisplayCatmullRomSpline(i);
-
 				}
 				catch (Exception e)
 				{
