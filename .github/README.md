@@ -31,4 +31,4 @@ In case of any issue you can submit an issue for this repository. Also don't for
 So that way I can notice the issue easier.
 
 <h1>Support Me</h1>
-You can support me from github sponsors and <a href="https://www.buymeacoffee.com/mertbalkan">buy me a coffe ☕</a>
+You can support me from github sponsors or <a href="https://www.buymeacoffee.com/mertbalkan">buy me a coffe ☕</a>
