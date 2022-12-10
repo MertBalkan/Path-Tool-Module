@@ -13,8 +13,15 @@ This tool helps you manage your points and save your points in the Unity Editor 
 <li>Showing distances between linear paths</li>
 </ul>
 
+<h1>Installation</h1>
+
+
 <h1>Getting started</h1>
 <h3>1. Setup</h3>
+
+
+https://user-images.githubusercontent.com/43827959/206876553-e75972e9-f18e-4541-9645-24e122362b25.mp4
+
 
 
 <h1>License</h1>
