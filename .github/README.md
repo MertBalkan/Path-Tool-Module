@@ -62,10 +62,9 @@ https://user-images.githubusercontent.com/43827959/207105802-a873f19c-fbf9-49c9-
 https://user-images.githubusercontent.com/43827959/207107871-9548bf08-43c3-4340-a61d-e77bb6cc1eb4.mp4
 
 * Selecting algorithm whether Catmull Rom or Linear. If it's using Linear Algorithm option, then it can show distances between the points if it's selected at the Editor. 
+* You can add or delete any point in Runtime. 
 
 https://user-images.githubusercontent.com/43827959/207107884-303a7359-ef60-4026-a2e9-56e7b0fd26d3.mp4
-
-* You can add or delete any point in Runtime. 
 
 https://user-images.githubusercontent.com/43827959/207107939-e49bf44c-c05d-4a36-973e-4f5b4d22ebde.mp4
 
