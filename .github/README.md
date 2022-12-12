@@ -14,6 +14,9 @@ This tool helps you manage your points and save your points in the Unity Editor 
 </ul>
 
 <h1>Installation</h1>
+For installation
+
+![img.png](img.png)
 
 
 <h1>Getting started</h1>
@@ -38,4 +41,4 @@ In case of any issue you can submit an issue for this repository. Also don't for
 So that way I can notice the issue easier.
 
 <h1>Support Me</h1>
-You can support me from github sponsors or <a href="https://www.buymeacoffee.com/mertbalkan">buy me a coffe ☕</a>
+You can support me from github sponsors or <a href="https://www.buymeacoffee.com/mertbalkan">buy me a coffee ☕</a>
