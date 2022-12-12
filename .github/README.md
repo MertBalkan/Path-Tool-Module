@@ -16,7 +16,6 @@ This tool helps you manage your points and save your points in the Unity Editor 
 <h1>Installation</h1>
 For installation
 
-![img.png](img.png)
 
 
 <h1>Getting started</h1>
