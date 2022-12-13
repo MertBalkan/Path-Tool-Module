@@ -19,7 +19,8 @@ public class PathManagerInspectorEditor : Editor
     {
         base.OnInspectorGUI();
         _pathManager = (PathManager) target;
-        
+
+        EditorGUILayout.Space(10);
         EditorGUILayout.BeginVertical();
         
         _pathCount = EditorGUILayout.TextField(PathManagerEditorConst.TotalPathCount, _pathCount);
@@ -35,6 +36,7 @@ public class PathManagerInspectorEditor : Editor
         
         EditorGUILayout.EndVertical();
         
+        EditorGUILayout.Space();
         EditorGUILayout.BeginHorizontal();
         
         DeleteAllPaths(_pathManager);
@@ -44,7 +46,15 @@ public class PathManagerInspectorEditor : Editor
 
     public void CreateNewPaths(PathManager pathManager)
     {
-        if (GUILayout.Button(PathManagerEditorConst.CreateNewPaths))
+        GUIStyle style = new GUIStyle()
+        { 
+            alignment = TextAnchor.MiddleCenter,
+            normal = new GUIStyleState() { textColor = Color.green, background = Texture2D.grayTexture},
+            active = new GUIStyleState() { textColor = Color.green, background = Texture2D.whiteTexture }
+            
+        };
+    
+        if (GUILayout.Button(PathManagerEditorConst.CreateNewPaths, style))
         {
             if(string.IsNullOrEmpty(_pathCount))
             {
@@ -73,7 +83,14 @@ public class PathManagerInspectorEditor : Editor
     
     public void DeleteAllPaths(PathManager pathManager)
     {
-        if (GUILayout.Button(PathManagerEditorConst.DeleteAllPaths))
+        GUIStyle style = new GUIStyle()
+        { 
+            alignment = TextAnchor.MiddleCenter,
+            normal = new GUIStyleState() { textColor = Color.red, background = Texture2D.grayTexture},
+            active = new GUIStyleState() { textColor = Color.red, background = Texture2D.whiteTexture }
+        };
+
+        if (GUILayout.Button(PathManagerEditorConst.DeleteAllPaths, style))
         {
             for (int i = 0; i < pathManager.Paths.Count; i++)
             {
@@ -85,7 +102,14 @@ public class PathManagerInspectorEditor : Editor
     
     public void DeletePathIndexOf(PathManager pathManager, string index)
     {
-        if (GUILayout.Button(PathManagerEditorConst.DeletePathIndexOf))
+        GUIStyle style = new GUIStyle()
+        { 
+            alignment = TextAnchor.MiddleCenter,
+            normal = new GUIStyleState() { textColor = Color.red, background = Texture2D.grayTexture },
+            active = new GUIStyleState() { textColor = Color.red, background = Texture2D.whiteTexture },
+        };
+
+        if (GUILayout.Button(PathManagerEditorConst.DeletePathIndexOf, style))
         {
             if(string.IsNullOrEmpty(index))
             {
